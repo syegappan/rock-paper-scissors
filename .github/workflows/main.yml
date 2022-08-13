@@ -33,7 +33,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Step 3 - Build the Maven project
-        run: mvn -B package --file pom.xnl
+        run: mvn -B package --file pom.xml
         
       # Runs a set of commands using the runners shell
       - name: Step 4 - What is the target direcotry?
